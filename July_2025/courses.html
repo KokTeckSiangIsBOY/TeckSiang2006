@@ -1,0 +1,149 @@
+<!-- Page 2: Courses -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Counter Strike Edu - Courses</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      color: #004d40;
+    }
+    header {
+      background-color: #00796b;
+      padding: 1rem;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ffd54f;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .course-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .course-card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .course-card:hover {
+      transform: scale(1.05);
+      background-color: #e0f2f1;
+    }
+    .course-card h3 {
+      margin-top: 0;
+      color: #00796b;
+    }
+    .course-card p {
+      line-height: 1.5;
+      color: #333;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Counter Strike Edu</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html" aria-current="page">Courses</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="calculator.html">GPA Calculator</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Diploma Courses</h1>
+    <section class="course-list">
+      <a href="cs.html" class="course-card">
+        <h3>Diploma in Computer Science</h3>
+        <p>
+          Learn programming, data structures, algorithms, networking, and software engineering fundamentals. Perfect for aspiring developers and IT professionals.
+        </p>
+      </a>
+      <a href="business.html" class="course-card">
+        <h3>Diploma in Business Administration</h3>
+        <p>
+          Gain knowledge in management, marketing, finance, and entrepreneurship. Ideal for future business leaders and entrepreneurs.
+        </p>
+      </a>
+      <a href="it.html" class="course-card">
+        <h3>Diploma in Information Technology</h3>
+        <p>
+          Focus on IT infrastructure, database management, cybersecurity, and system administration.
+        </p>
+      </a>
+      <a href="marketing.html" class="course-card">
+        <h3>Diploma in Marketing</h3>
+        <p>
+          Explore digital marketing, market research, branding, and consumer behavior.
+        </p>
+      </a>
+      <a href="design.html" class="course-card">
+        <h3>Diploma in Graphic Design</h3>
+        <p>
+          Develop skills in visual design, typography, digital illustration, and multimedia.
+        </p>
+      </a>
+      <a href="finance.html" class="course-card">
+        <h3>Diploma in Finance</h3>
+        <p>
+          Understand financial accounting, investment, risk management, and corporate finance.
+        </p>
+      </a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Counter Strike Edu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
